@@ -1,68 +1,57 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# E-Comm End-to-End Application using MERN Stack
 
-## Available Scripts
+This is a comprehensive e-commerce application built using the MERN stack. It covers all aspects of an e-commerce platform, including product listings, shopping cart, user authentication, and payment processing.
 
-In the project directory, you can run:
+![home](https://github.com/kaushik-godhani/e-comm/assets/68903480/57eb31bf-406c-4be0-93ec-05d3d807db8a)
 
-### `npm start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Features
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- **Product Listings**: Users can view a wide range of products with details and images.
+- **Shopping Cart**: Users can add and remove items from their shopping cart.
+- **User Authentication**: Users can sign up, log in, and manage their profiles.
+- **Payment Processing**: Securely process payments for purchased items.
+- **Order Management**: Users can view their order history and status.
+- **Product Reviews**: Users can leave reviews and ratings for products.
+- **Admin Dashboard**: Admins can manage products, orders, and users.
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **MongoDB**: Used as the database to store product information, user data, and orders.
+- **Express.js**: Used to create a RESTful API for the application.
+- **React.js**: Used to build the user interface.
+- **Node.js**: Used as the backend server.
+- **Payment Gateway Integration**: Implement a payment gateway like Braintree, Stripe or PayPal for payment processing.
+- **User Authentication**: Implements user authentication for secure access to features [oAuth, google].
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Follow these instructions to set up and run the project on your local machine.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Node.js and npm installed on your machine.
+- MongoDB installed and running.
+- Payment gateway API keys.
 
-### `npm run eject`
+### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Clone the repository:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   git clone https://github.com/kaushik-godhani/e-comm
+   cd e-comm
+  ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+![admin](https://github.com/kaushik-godhani/e-comm/assets/68903480/c28ebb88-2a44-4df5-9109-ad059860cc95)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+![desktop](https://github.com/kaushik-godhani/e-comm/assets/68903480/c3269498-6b94-4c06-93ac-3424561bc524)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+![mobile](https://github.com/kaushik-godhani/e-comm/assets/68903480/d53f459e-3994-499a-a99d-f0001030b7e4)
 
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
